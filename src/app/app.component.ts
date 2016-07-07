@@ -67,13 +67,13 @@ export class AppComponent implements OnInit {
 
             this.operator = item;
         }
-        this.showAnswer = (this.show.toString()).split('');
-        // Add in padding
-        let l = 8 - this.showAnswer.length;
-        for(var i = 0; i < l; i++){
-            this.showAnswer.unshift('');
-        }
-        this.showAnswer.push('');
+        // this.showAnswer = (this.show.toString()).split('');
+        // // Add in padding
+        // let l = 8 - this.showAnswer.length;
+        // for(var i = 0; i < l; i++){
+        //     this.showAnswer.unshift('');
+        // }
+        // this.showAnswer.push('');
     }
 
     getStyle (item: number) {

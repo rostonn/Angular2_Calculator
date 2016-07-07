@@ -1,5 +1,7 @@
 /* Media Queries */
-
+*{
+    font-family: 'Roboto Mono', monospace;
+}
 @media screen and (min-width:1000px){
     html{
         font-size: 20px;
@@ -11,12 +13,8 @@
     .answer{
         width:60vw;
         height:20vh;
-        /*font-size: 8em;*/
+        font-size: 8em;
     }
-    /*.number{
-        font-size:2em;
-    }*/
-
 }
 
 @media screen and (max-width:1000px){
@@ -30,24 +28,18 @@
     .answer{
         width:100vw;
         height:20vh;
-        /*font-size: 8em;*/
+        font-size: 6em;
+
     }
     /*.number{
         font-size:2em;
     }*/
 }
-.answer_square{
-    width:12.5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-}
 
+/*
 .answer_number{
-    font-size: 8em;
-}
+    font-size: 7em;
+}*/
 .square{
     border:0px solid black;
     width:25%;
@@ -86,6 +78,9 @@ span.zero{
 .answer{
     background-color: black;
     color:white;
-    display: flex;
-    flex-direction: row;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*font-size: 8em;*/
+    text-align: right;
+    text-overflow: clip;
 }
